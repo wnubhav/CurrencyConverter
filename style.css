@@ -1,35 +1,52 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: linear-gradient(to bottom, #C7C5B8, #B3B3B3);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .converter {
-    width: 300px;
+    width: 500px;
     margin: auto;
-    padding: 20px;
-    background-color: white;
+    padding: 40px;
+    background-color: #F2F2F2;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.converter h2 {
+    color: #333333;
+    margin-bottom: 20px;
 }
 
 label {
     display: block;
     margin-bottom: 10px;
+    color: #444444;
 }
 
 input[type="number"], select {
     width: 100%;
-    height: 30px;
-    margin-bottom: 20px;
+    height: 60px;
+    margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #87CEEB;
+    border-radius: 5px;
+    background-color: #E5E5EA;
+    color: #444444;
 }
 
 button[type="submit"] {
     width: 100%;
-    height: 40px;
-    background-color: #007bff;
+    height: 60px;
+    background-color: #0097A7;
     color: white;
     border: none;
     border-radius: 5px;
@@ -37,9 +54,14 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #007A7A;
 }
 
 #result {
     margin-top: 20px;
+    padding: 10px;
+    background-color: #F0F0F0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #444444;
 }
