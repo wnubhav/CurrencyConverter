@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurrencyConverter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter">
+        <h2>Currency Converter</h2>
+        <form id="converterForm">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" required>
+            <label for="fromCurrency">From:</label>
+            <select id="fromCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+                <option value="INR">INR</option>
+                <option value="CAD">CAD</option>
+                <option value="AUD">AUD</option>
+                <option value="CNY">CNY</option>
+                <option value="CHF">CHF</option>
+                <option value="SGD">SGD</option>
+                <option value="NZD">NZD</option>
+                <option value="HKD">HKD</option>
+            </select>
+            <label for="toCurrency">To:</label>
+            <select id="toCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+                <option value="INR">INR</option>
+                <option value="CAD">CAD</option>
+                <option value="AUD">AUD</option>
+                <option value="CNY">CNY</option>
+                <option value="CHF">CHF</option>
+                <option value="SGD">SGD</option>
+                <option value="NZD">NZD</option>
+                <option value="HKD">HKD</option>
+            </select>
+            <button type="submit">Convert</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
